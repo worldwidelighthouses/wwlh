@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+Options +Indexes
+RewriteEngine On
+RewriteRule ^English-Lighthouses/(.*)/(.*)$ English-Lighthouses-Page.php?Ownership=$1&Title=$2
+RewriteRule ^Scottish-Lighthouses/(.*)/(.*)$ Scottish-Lighthouses-Page.php?Ownership=$1&Title=$2
+RewriteRule ^Welsh-Lighthouses/(.*)/(.*)$ Welsh-Lighthouses-Page.php?Ownership=$1&Title=$2
+RewriteRule ^Irish-Lighthouses/(.*)/(.*)$ Irish-Lighthouses-Page.php?Ownership=$1&Title=$2
